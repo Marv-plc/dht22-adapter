@@ -67,7 +67,7 @@ class DHT22Device(Device):
         self.properties['temp'] = DHT22Property( self,
                                             'temperature',
                                             {
-                                                '@type': 'temperature',
+                                                #'@type': 'temperature',
                                                 'title': 'Temperature',
                                                 'type': 'number',
                                                 'readonly': True,
@@ -80,7 +80,7 @@ class DHT22Device(Device):
         self.properties['humid'] = DHT22Property( self,
                                             'humidity',
                                             {
-                                                '@type': 'humidity',
+                                                #'@type': 'humidity',
                                                 'title': 'Humidity',
                                                 'type': 'number',
                                                 'readonly': False,
