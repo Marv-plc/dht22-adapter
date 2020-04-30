@@ -1,117 +1,60 @@
 {
-
   "author": "Marvin Bartsch",
-
   "description": "DHT22 adapter plugin for Mozilla WebThings Gateway",
-
   "gateway_specific_settings": {
-
     "webthings": {
-
       "exec": "python3 {path}/main.py",
-
       "primary_type": "adapter",
-
       "strict_max_version": "*",
-
-      "strict_min_version": "0.0.0"
-
+      "strict_min_version": "0.10.0"
     }
-
   },
-
   "homepage_url": "None",
-
   "id": "dht22-adapter",
-
   "license": "None",
-
   "manifest_version": 1,
-
   "name": "DHT22",
-
   "options": {
-
     "default": {
-
       "DHT22": [
-
         {
-
           "name": "DHT22",
-
           "temperature_offset": 0,
-
           "humidity_offset": 0,
-
           "pin": 4
-
         }
-
       ]
-
     },
-
     "schema": {
-
       "type": "object",
-
       "properties": {
-
         "DHT22": {
-
           "type": "array",
-
           "items": {
-
             "type": "object",
-
             "required": [
-
               "pin"
-
             ],
-
             "properties": {
-
               "pin": {
-
                 "minimum": 0,
-
                 "type": "integer"
-
               },
-
               "name": {
-
                 "type": "string"
-
               },
 	      "temperature_offset": {
-
                 "type": "number"
-
               },
 	     "humidity_offset": {
-
                 "type": "number"
-
               }
-
             }
-
           }
-
         }
-
       }
-
     }
-
   },
-
   "short_name": "DHT22",
-
   "version": "0.0.1"
-
 }
