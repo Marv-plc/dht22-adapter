@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-version=$(grep version package.json | cut -d: -f2 | cut -d\" -f2)
+version=$(grep version manifest.json | cut -d: -f2 | cut -d\" -f2)
        
 # Clean up from previous releases
          
