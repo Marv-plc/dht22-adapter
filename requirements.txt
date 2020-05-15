@@ -1,1 +1,1 @@
-Adafruit_DHT
+Adafruit_DHT==1.4.0
