@@ -9,9 +9,9 @@
       "strict_min_version": "0.10.0"
     }
   },
-  "homepage_url": "None",
+  "homepage_url": "https://github.com/Marv-plc/dht22-adapter",
   "id": "dht22-adapter",
-  "license": "None",
+  "license": "MPL-2.0",
   "manifest_version": 1,
   "name": "DHT22",
   "options": {
