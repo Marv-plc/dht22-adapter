@@ -1,5 +1,5 @@
 {
-  "author": "Marvin Bartsch",
+  "author": "marv-plc",
   "description": "DHT22 adapter plugin for Mozilla WebThings Gateway",
   "gateway_specific_settings": {
     "webthings": {
@@ -56,5 +56,5 @@
     }
   },
   "short_name": "DHT22",
-  "version": "0.0.1"
+  "version": "0.1.0"
 }
